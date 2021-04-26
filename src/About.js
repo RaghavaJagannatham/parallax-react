@@ -1,12 +1,13 @@
 import React from 'react'
 import './About.css'
-import img from './images/me.jpeg'
+import img from './images/me-min.jpeg'
 import Bounce from 'react-reveal/Bounce';
 
 function About() {
     return (
         <div className="About">
-            <div className="box">
+             <Bounce left>
+             <div className="box">
                 <img  src= {img} alt ="image" ></img>
                 <div className="mem">
                 <h2>About me</h2>
@@ -14,11 +15,16 @@ function About() {
                 <h5>web designer</h5>
 
                 </div>
-               
-                <p>React (also known as React.js or ReactJS) is an open-source, front end, JavaScript library[3] for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies.[4][5][6] React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.[7]
+                <p><h3>Hey...! Iam Raghava</h3>Iam an web-developer, Iam a Junior Programmer with Good understanding of Front end skills. I love structure and Quality ,I love spending time on fixing little details and optimising Web Apps. Also I like working in a team,and also intrested in making of responsive web applications
                 </p>
             
             </div>
+              
+          
+            </Bounce>
+
+
+          
             <Bounce right>
               <section className="class">
                  <div className="boxes">

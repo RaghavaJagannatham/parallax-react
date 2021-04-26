@@ -1,9 +1,9 @@
 import React from 'react'
-import img1 from '../src/images/bird1.png';
-import img2 from '../src/images/bird2.png';
-import img3 from '../src/images/forest.png';
-import img4 from '../src/images/rocks.png';
-import img5 from '../src/images/water.png';
+import img1 from '../src/images/bird1-min.png';
+import img2 from '../src/images/bird2-min.png';
+import img3 from '../src/images/back22-min.png';
+import logo from '../src/images/lion.png';
+
 
 import  { useState } from 'react';
 
@@ -21,13 +21,13 @@ function Header() {
             <div className="header" style={{
                 top: (offset * 0.5) + 'px'
             }}>
-            <h4 className="logo">Raghava Jagannatham</h4>
+            <img className="logo" src={logo} />
                 
                     <ul className="list">
                         <li><a className="active">Home</a> </li>
+                        <li><a>About Me</a> </li>
+                        <li><a>Projects</a> </li>
                         <li><a>Contact</a> </li>
-                        <li><a>Description</a> </li>
-                        <li><a>Portfolio</a> </li>
                     </ul>
                     
                 
@@ -52,8 +52,9 @@ function Header() {
                     
                 }}/>
 
-                <img  src= {img3} alt="forest" style={{
-                    top:(offset * 0.50) + 'px'
+                <img  className="back2" src= {img3} alt="forest" style={{
+                    height:(100) + '%',
+                    top:(offset * 0.110) + 'px'
                 }}
             /> 
 
@@ -61,14 +62,16 @@ function Header() {
                     marginTop:(offset * -0.15) + 'px' 
                 }}>Explore</a>
 
-                <img  src= {img4} alt="rocks"  style={{
+                
+                {/*<img  src= {img4} alt="rocks"  style={{
                     top:(offset * -0.12) + 'px'
             
 
                 }}/>
+                 
                 <img  src= {img5} alt="water" style={{
                     bottom:(offset * -0.12) + 'px'
-                }}/>
+                }}/>*/}
                 
 
                 </div>

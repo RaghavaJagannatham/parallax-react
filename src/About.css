@@ -2,7 +2,7 @@
     display: flex;
     position: relative;
     margin: 0;
-    background: #094b65;
+    background: url('https://cdn.pixabay.com/photo/2017/06/08/07/25/bear-2382779_1280.jpg');
     background-size: cover;
   }
   .box{
