@@ -20,7 +20,11 @@ function Contact() {
                                 <h3>
                                     Address
                                 </h3>
-                                <p>Raghavaaaaaa Jagannathammm</p>
+                                <p>H.N0 10-11-44/16
+                                    Shalininagar LabourColony 
+                                    Warangal,Telangana,India.
+                                    pin:506001.
+                                </p>
 
                             </div>
 

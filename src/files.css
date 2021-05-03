@@ -62,3 +62,6 @@
   margin-top: -40px;
   transition-delay: 0.3s;
 }
+.container >.card >.content >p{
+  color: #fff;
+}

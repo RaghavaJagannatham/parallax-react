@@ -19,10 +19,7 @@ function About() {
                 </p>
             
             </div>
-              
-          
             </Bounce>
-
 
           
             <Bounce right>
@@ -32,7 +29,7 @@ function About() {
                  </div>
               </section>
           
-        </Bounce>
+            </Bounce>
             
                
      

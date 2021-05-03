@@ -14,8 +14,8 @@ function Header() {
     
     window.addEventListener('scroll', handleScroll)
     
-    
     return (
+        
         <div>
             
             <div className="header" style={{
@@ -24,11 +24,13 @@ function Header() {
             <img className="logo" src={logo} />
                 
                     <ul className="list">
-                        <li><a className="active">Home</a> </li>
-                        <li><a>About Me</a> </li>
+
+                        <li><a className="active">Home </a></li>
+                        <li><a>About Me</a></li>
                         <li><a>Projects</a> </li>
                         <li><a>Contact</a> </li>
                     </ul>
+                    
                     
                 
             </div>
@@ -37,8 +39,8 @@ function Header() {
                 <h2 className="text" style={{
                     top: ( 50 + offset * -0.5) + '%'
                 }}>
-                    <span>Web Developer </span> <br />
-                    Portfolio
+                    <span>Web Developer, Designer</span> <br />
+                    Raghava Jagannatham
                 </h2>
 
                 <img src= {img1} alt="bird1 " style={{
@@ -74,15 +76,11 @@ function Header() {
                 }}/>*/}
                 
 
-                </div>
-            
+                </div>     
             
 
-        
-                
             
-        
-          
+                 
         </div>
     );
 }

@@ -19,7 +19,7 @@ function Files() {
                         <img className="image" src={netflix}/>
                     </div>
                     <div className="content">
-                        <p ><h2>Netflix-Clone</h2>website link..........github-link...........</p>
+                        <p ><h2>Netflix-Clone</h2>Website-link:<a href="https://netflix-clone-5f1ac.web.app/">https://netflix-clone-5f1ac.web.app/ </a> github-link...........</p>
                     </div>
             </div>   
         
@@ -32,7 +32,9 @@ function Files() {
                     <img className="image" src={amazon}/>
                 </div>
                 <div className="content">
-                    <p ><h2>Amazon-Clone</h2>website link..........github-link...........</p>
+                    <p ><h2>Amazon-Clone</h2>website -link :<a href="https://challenge-948d1.web.app/">
+                        https://challenge-948d1.web.app/ 
+                    </a>github-link...........</p>
                 </div>
         </div>   
 
@@ -56,7 +58,7 @@ function Files() {
                     <img className="image" src={todo}/>
                 </div>
                 <div className="content">
-                    <p ><h2>To-do-App</h2>website link..........github-link...........</p>
+                    <p ><h2>To-do-App</h2>website -link :<a  href="https://todo-4db72.web.app/">https://to-do-app-466cb.web.app/</a> github-link...........</p>
                 </div>
         </div>  
 
@@ -67,7 +69,7 @@ function Files() {
                         <img className="image" src={website}/>
                     </div>
                     <div className="content">
-                        <p ><h2>social-media-website</h2>website link..........github-link...........</p>
+                        <p ><h2>social-media-website</h2>website link <a href="https://soc-media-6ee2c.web.app/">https://soc-media-6ee2c.web.app/</a> github-link...........</p>
                     </div>
             </div>   
         
@@ -75,8 +77,6 @@ function Files() {
 
 
         
-       
-
        
     </div>
 

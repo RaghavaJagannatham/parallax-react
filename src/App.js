@@ -1,17 +1,31 @@
-
+import react , { Suspense, lazy} from 'react';
 import './App.css';
 import Header from './Header';
-import About from './About'
-import Files from './Files'
-import Contact from './Contact'
+
+const  Contact = lazy(() => import ("./Contact"));
+const  About = lazy(() => import ("./About"));
+const  Files = lazy(() => import ("./Files"));
+
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <About />
-      <Files />
-      <Contact />
+
+      <Suspense fallback={<h2>Lazy Loading wait</h2>}>
+
+
+        
+        <About />
+        <Files />
+        <Contact />
+        
+
+      </Suspense>
+      
+     
+      
+        
       
       
     </div>
